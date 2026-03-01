@@ -35,7 +35,7 @@ public class AuthManager : MonoBehaviour
         string fullName = FullnameInputField.text;
         string email = EmailInputField.text;
         string password = PasswordInputField.text;
-        string confirmPassword = ConfirmPasswordInputField.text;
+        //string confirmPassword = ConfirmPasswordInputField.text;
 
         var request = new RegisterPlayFabUserRequest
         {
